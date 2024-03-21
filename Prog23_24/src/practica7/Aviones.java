@@ -19,6 +19,7 @@ import practicaFicheros.UsuarioBizi;
  * de accidentes.
  * @author Hector Garcia
  * @since 18-03-2024
+ * @version 20-03-2024
  */
 public class Aviones {
 
@@ -81,6 +82,7 @@ public class Aviones {
 	 * almacenando los diferentes tipos de aviones que hay y los fallecidos que se han tenido 
 	 * sumandolos y luego ordenando ese arrayList comparando los fallecidos de cada uno.
 	 * @param accidentes Listado de los accidentes de aviones del csv
+	 * @see #leerInformacion()
 	 * @return Listado de los diferentes tipos de aviones 
 	 */
 	public static ArrayList<Tipo> buscarTipos(ArrayList<Accidente> accidentes) {
